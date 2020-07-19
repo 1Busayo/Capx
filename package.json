@@ -6,9 +6,12 @@
     "directories": {
         "test": "test"
     },
+    "scripts": {
+        "dev": "lite-server"
+    },
     "author": "samuel Fanimokun",
     "license": "ISC",
     "devDependencies": {
-        "lite-server": "^2.5.4"
+        "lite-server": "^2.3.0"
     }
 }
