@@ -30,6 +30,9 @@ mapping(address => mapping(address => uint256)) public allowance;
   constructor  (uint256 _initialSupply) public {
   	balanceOf[msg.sender] = _initialSupply;
     totalSupply = _initialSupply;
+   name;
+   symbol;
+   standard;
     // allocate the initial supply
   }
 
